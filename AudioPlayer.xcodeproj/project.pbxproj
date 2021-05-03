@@ -11,6 +11,8 @@
 		380CE106263FF98B00286096 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CE105263FF98B00286096 /* ContentView.swift */; };
 		380CE108263FF98C00286096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380CE107263FF98C00286096 /* Assets.xcassets */; };
 		380CE10B263FF98C00286096 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380CE10A263FF98C00286096 /* Preview Assets.xcassets */; };
+		380CE113263FF9F200286096 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CE112263FF9F200286096 /* DashboardView.swift */; };
+		380CE115263FFA1100286096 /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CE114263FFA1100286096 /* PlaylistsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		380CE107263FF98C00286096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		380CE10A263FF98C00286096 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		380CE10C263FF98C00286096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380CE112263FF9F200286096 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		380CE114263FFA1100286096 /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				380CE107263FF98C00286096 /* Assets.xcassets */,
 				380CE10C263FF98C00286096 /* Info.plist */,
 				380CE109263FF98C00286096 /* Preview Content */,
+				380CE112263FF9F200286096 /* DashboardView.swift */,
+				380CE114263FFA1100286096 /* PlaylistsView.swift */,
 			);
 			path = AudioPlayer;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				380CE106263FF98B00286096 /* ContentView.swift in Sources */,
+				380CE113263FF9F200286096 /* DashboardView.swift in Sources */,
+				380CE115263FFA1100286096 /* PlaylistsView.swift in Sources */,
 				380CE104263FF98B00286096 /* AudioPlayerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
