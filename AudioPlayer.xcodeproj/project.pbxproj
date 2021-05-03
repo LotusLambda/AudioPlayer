@@ -18,8 +18,8 @@
 		380CE11D263FFDBE00286096 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CE11C263FFDBE00286096 /* Song.swift */; };
 		380CE11F263FFE3600286096 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CE11E263FFE3600286096 /* SongView.swift */; };
 		380CE122263FFE8400286096 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CE121263FFE8400286096 /* Store.swift */; };
-		380CE124264000C100286096 /* PlaylistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CE123264000C100286096 /* PlaylistItemView.swift */; };
 		3874D286264003130045BFD9 /* AddPlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874D285264003130045BFD9 /* AddPlaylistView.swift */; };
+		3874D28A26402D690045BFD9 /* SongDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874D28926402D690045BFD9 /* SongDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +36,8 @@
 		380CE11C263FFDBE00286096 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		380CE11E263FFE3600286096 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
 		380CE121263FFE8400286096 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		380CE123264000C100286096 /* PlaylistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistItemView.swift; sourceTree = "<group>"; };
 		3874D285264003130045BFD9 /* AddPlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaylistView.swift; sourceTree = "<group>"; };
+		3874D28926402D690045BFD9 /* SongDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,12 +93,10 @@
 		380CE116263FFD6F00286096 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				380CE112263FF9F200286096 /* DashboardView.swift */,
-				380CE114263FFA1100286096 /* PlaylistsView.swift */,
-				380CE117263FFD7E00286096 /* PlaylistDetailsView.swift */,
+				3874D28826402CDB0045BFD9 /* Playlists */,
+				3874D28726402CD70045BFD9 /* Dashboard */,
 				380CE11E263FFE3600286096 /* SongView.swift */,
-				380CE123264000C100286096 /* PlaylistItemView.swift */,
-				3874D285264003130045BFD9 /* AddPlaylistView.swift */,
+				3874D28926402D690045BFD9 /* SongDetailsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -118,6 +116,24 @@
 				380CE121263FFE8400286096 /* Store.swift */,
 			);
 			path = Store;
+			sourceTree = "<group>";
+		};
+		3874D28726402CD70045BFD9 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				380CE112263FF9F200286096 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		3874D28826402CDB0045BFD9 /* Playlists */ = {
+			isa = PBXGroup;
+			children = (
+				380CE117263FFD7E00286096 /* PlaylistDetailsView.swift */,
+				380CE114263FFA1100286096 /* PlaylistsView.swift */,
+				3874D285264003130045BFD9 /* AddPlaylistView.swift */,
+			);
+			path = Playlists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,11 +205,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3874D28A26402D690045BFD9 /* SongDetailsView.swift in Sources */,
 				380CE11D263FFDBE00286096 /* Song.swift in Sources */,
 				380CE118263FFD7E00286096 /* PlaylistDetailsView.swift in Sources */,
 				380CE106263FF98B00286096 /* ContentView.swift in Sources */,
 				3874D286264003130045BFD9 /* AddPlaylistView.swift in Sources */,
-				380CE124264000C100286096 /* PlaylistItemView.swift in Sources */,
 				380CE122263FFE8400286096 /* Store.swift in Sources */,
 				380CE113263FF9F200286096 /* DashboardView.swift in Sources */,
 				380CE115263FFA1100286096 /* PlaylistsView.swift in Sources */,

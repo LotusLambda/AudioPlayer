@@ -7,15 +7,13 @@ struct PlaylistsView: View {
     
     var body: some View {
         NavigationView(content: {
-            VStack {
-                List {
-                    NavigationLink(store.favoritePlaylist.name, destination: PlaylistItemView(playlist: store.favoritePlaylist))
-                    
-                    ForEach(store.customPlaylists) { playlist in
-                        NavigationLink(playlist.name, destination: PlaylistItemView(playlist: playlist))
-                    }.onDelete { indexSet in
-                        store.deletePlaylist(indexSet: indexSet)
-                    }
+            List {
+                NavigationLink(store.favoritePlaylist.name, destination: PlaylistDetailsView(playlist: store.favoritePlaylist))
+                
+                ForEach(store.customPlaylists) { playlist in
+                    NavigationLink(playlist.name, destination: PlaylistDetailsView(playlist: playlist))
+                }.onDelete { indexSet in
+                    store.deletePlaylist(indexSet: indexSet)
                 }
             }
             .navigationTitle("Playlists")
