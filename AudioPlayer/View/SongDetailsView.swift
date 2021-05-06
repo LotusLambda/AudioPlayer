@@ -8,41 +8,7 @@ struct SongDetailsView: View {
     var body: some View {
         NavigationView {
             VStack {
-                HStack {
-                    Button {
-                        store.previous()
-                    } label: {
-                        Image(systemName: "backward.end.fill")
-                            .resizable()
-                            .frame(width: 40, height: 40)
-                    }
-
-                    Button {
-                        if store.isPlaying {
-                            store.pause()
-                        } else {
-                            store.play()
-                        }
-                    } label: {
-                        if store.isPlaying {
-                            Image(systemName: "pause.fill")
-                                .resizable()
-                                .frame(width: 40, height: 40)
-                        } else {
-                            Image(systemName: "play.fill")
-                                .resizable()
-                                .frame(width: 40, height: 40)
-                        }
-                    }
-                    
-                    Button {
-                        store.next()
-                    } label: {
-                        Image(systemName: "forward.end.fill")
-                            .resizable()
-                            .frame(width: 40, height: 40)
-                    }
-                }
+                PlayerControlsView()
             }
             .padding()
             .navigationTitle(song.title)

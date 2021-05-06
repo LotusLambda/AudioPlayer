@@ -5,15 +5,18 @@ struct DashboardView: View {
     
     var body: some View {
         NavigationView(content: {
-            List {
-                ForEach(store.allSongs) { song in
-                    Button {
-                        store.selectedSong = song
-                        store.isSongDetailsVisible = true
-                    } label: {
-                        SongView(song: song)
-                    }.buttonStyle(PlainButtonStyle())
+            VStack {
+                List {
+                    ForEach(store.allSongs) { song in
+                        Button {
+                            store.selectSong(song, songQueue: store.allSongs)
+                            store.isSongDetailsVisible = true
+                        } label: {
+                            SongView(song: song)
+                        }
+                    }
                 }
+                PlayerControlsView()
             }.navigationTitle("Dashboard")
         })
     }

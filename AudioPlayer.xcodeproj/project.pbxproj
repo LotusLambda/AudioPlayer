@@ -20,6 +20,7 @@
 		380CE122263FFE8400286096 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CE121263FFE8400286096 /* Store.swift */; };
 		3874D286264003130045BFD9 /* AddPlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874D285264003130045BFD9 /* AddPlaylistView.swift */; };
 		3874D28A26402D690045BFD9 /* SongDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874D28926402D690045BFD9 /* SongDetailsView.swift */; };
+		3874D28C264188140045BFD9 /* PlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874D28B264188140045BFD9 /* PlayerControlsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		380CE121263FFE8400286096 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		3874D285264003130045BFD9 /* AddPlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaylistView.swift; sourceTree = "<group>"; };
 		3874D28926402D690045BFD9 /* SongDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailsView.swift; sourceTree = "<group>"; };
+		3874D28B264188140045BFD9 /* PlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				3874D28726402CD70045BFD9 /* Dashboard */,
 				380CE11E263FFE3600286096 /* SongView.swift */,
 				3874D28926402D690045BFD9 /* SongDetailsView.swift */,
+				3874D28B264188140045BFD9 /* PlayerControlsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				380CE11F263FFE3600286096 /* SongView.swift in Sources */,
 				380CE104263FF98B00286096 /* AudioPlayerApp.swift in Sources */,
 				380CE11B263FFDAB00286096 /* Playlist.swift in Sources */,
+				3874D28C264188140045BFD9 /* PlayerControlsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

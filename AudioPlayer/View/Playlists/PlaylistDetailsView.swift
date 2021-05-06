@@ -9,11 +9,11 @@ struct PlaylistDetailsView: View {
         List {
             ForEach(playlist.songs) { song in
                 Button {
-                    store.selectedSong = song
+                    store.selectSong(song, songQueue: playlist.songs)
                     store.isSongDetailsVisible = true
                 } label: {
                     SongView(song: song)
-                }.buttonStyle(PlainButtonStyle())
+                }
             }.onDelete { indexSet in
                 store.deleteSongFromPlaylist(indexSet: indexSet, playlist: playlist)
             }
