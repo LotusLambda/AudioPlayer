@@ -30,8 +30,5 @@ struct SongDetailsView: View {
                 }
             }))
         }
-        .onAppear {
-            store.selectedSong = song
-        }
     }
 }

@@ -25,12 +25,6 @@ struct SongView: View {
                     Image(systemName: "heart.fill")
                 }.buttonStyle(PlainButtonStyle())
             }
-            
-            Button {
-                store.songToPlaylist = song
-            } label: {
-                Image(systemName: "ellipsis")
-            }.buttonStyle(PlainButtonStyle())
         }
     }
 }

@@ -14,8 +14,6 @@ struct PlaylistDetailsView: View {
                 } label: {
                     SongView(song: song)
                 }
-            }.onDelete { indexSet in
-                store.deleteSongFromPlaylist(indexSet: indexSet, playlist: playlist)
             }
         }
     }
